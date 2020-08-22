@@ -8,11 +8,11 @@ tox = "*"
 sphinx = "*"
 
 [packages]
-cose-python = {editable = true, path = "."}
+python-cose = {editable = true, path = "."}
 pytest = "*"
 flake8 = "*"
 mypy = "*"
 pre-commit = "*"
 
 [requires]
-python_version = ">=3.6"
+python_version = "3.6"
