@@ -3,19 +3,19 @@ from typing import Dict
 
 import cose
 import pytest
-from cose.internal.key import ECKey, Key
+from cose.internal.key import Key
 
 keys: Dict[str, Key] = {
-    "11": ECKey(
-        **{
-            "kty": "EC",
-            "kid": "11",
-            "crv": "P-256",
-            "x": "usWxHK2PmfnHKwXPS54m0kTcGJ90UiglWiGahtagnv8",
-            "y": "IBOL-C3BttVivg-lSreASjpkttcsz-1rb7btKLv8EX4",
-            "d": "V8kgd2ZBRuh2dgyVINBUqpPDr7BOMGcF22CQMIUHtNM",
-        }
-    ),
+    # "11": EllipticalCurve2PrivateKey(
+    #     **{
+    #         "kty": "EC",
+    #         "kid": "11",
+    #         "crv": "P-256",
+    #         "x": "usWxHK2PmfnHKwXPS54m0kTcGJ90UiglWiGahtagnv8",
+    #         "y": "IBOL-C3BttVivg-lSreASjpkttcsz-1rb7btKLv8EX4",
+    #         "d": "V8kgd2ZBRuh2dgyVINBUqpPDr7BOMGcF22CQMIUHtNM",
+    #     }
+    # ),
 }
 
 
